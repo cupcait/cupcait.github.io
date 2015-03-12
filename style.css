@@ -10,15 +10,47 @@ body {
 h1 {
   color: #993436;
   font-size: 48px;
+  margin: 0;
 }
 
-h3 {
+h2 {
   color: #D13B3D;
   font-size: 36px;
   margin: 20px 0;
 }
 
-h1, h3 {
+h3 {
+  color: #42445B;
+  display: inline;
+  padding: 20px 0;
+}
+
+.work-item {
+  margin: 15px 0;
+}
+
+.date-range {
+  display: inline;
+  float: right;
+}
+
+.title {
+  color: #75789C;
+  font-size=80%;
+  font-weight: bold;
+  display: block;
+  padding: 5px 0;
+}
+
+.work-history#education div.work-item,h3 {
+  padding-bottom: 0;
+}
+
+.work-history#education p {
+  margin-top:0;
+}
+
+h1, h2 {
   font-family: 'Grand Hotel', sans-serif;
 }
 
@@ -29,7 +61,7 @@ h1, h3 {
   margin: 0 auto;
   max-width: 800px;
   background-color: white;
-  padding: .5em 3em;
+  padding: 4em 3em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -43,10 +75,24 @@ a:hover, a:active {
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
+ // padding: 0;
+  margin: 5px 0;
 }
 
 li {
-  line-height: 25px;
+  font-size:90%;
+}
+
+.photos {
+  text-align: center;
+}
+
+.photos img {
+  max-width: 125px;
+  border-radius: 50%;
+}
+
+ul.links {
+  list-style: none;
+  padding-left: 0;
 }
