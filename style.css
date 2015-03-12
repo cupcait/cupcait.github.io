@@ -26,7 +26,8 @@ h3 {
 }
 
 .work-item {
-  margin: 15px 0;
+  margin: 15px 0 5px;
+  display: block;
 }
 
 .date-range {
@@ -75,7 +76,6 @@ a:hover, a:active {
 }
 
 ul {
- // padding: 0;
   margin: 5px 0;
 }
 
