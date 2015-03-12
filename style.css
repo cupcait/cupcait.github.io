@@ -1,10 +1,17 @@
-p {
-  color: #1A151C;
-}
-
 body {
   background-color: #42445B;
   margin: 0;
+}
+
+.content {
+  border-left: solid 6px #75789C;
+  border-right: solid 6px #75789C;
+  min-height: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: white;
+  padding: 4em 3em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 h1 {
@@ -19,11 +26,38 @@ h2 {
   margin: 20px 0;
 }
 
+h1, h2 {
+  font-family: 'Grand Hotel', sans-serif;
+}
+
 h3 {
   color: #42445B;
   display: inline;
   padding: 20px 0;
 }
+
+p {
+  color: #1A151C;
+}
+
+a {
+  text-decoration: none;
+  color: #993436;
+}
+
+a:hover, a:active {
+  color: #D13B3D;
+}
+
+ul {
+  margin: 5px 0;
+}
+
+li {
+  font-size:90%;
+}
+
+// Classes.
 
 .work-item {
   margin: 15px 0 5px;
@@ -51,38 +85,7 @@ h3 {
   margin-top:0;
 }
 
-h1, h2 {
-  font-family: 'Grand Hotel', sans-serif;
-}
-
-.content {
-  border-left: solid 6px #75789C;
-  border-right: solid 6px #75789C;
-  min-height: 100%;
-  margin: 0 auto;
-  max-width: 800px;
-  background-color: white;
-  padding: 4em 3em;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: #993436;
-}
-
-a:hover, a:active {
-  color: #D13B3D;
-}
-
-ul {
-  margin: 5px 0;
-}
-
-li {
-  font-size:90%;
-}
-
+// Circular images.
 .photos {
   text-align: center;
 }
@@ -92,6 +95,7 @@ li {
   border-radius: 50%;
 }
 
+// Links/contact info.
 ul.links {
   list-style: none;
   padding-left: 0;
