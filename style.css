@@ -9,7 +9,7 @@ body {
   min-height: 100%;
   margin: 0 auto;
   max-width: 800px;
-  background-color: white;
+  background-color: #eeeeee;
   padding: 3em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -92,6 +92,9 @@ li {
 
 .photos img {
   max-width: 125px;
+}
+
+.round {
   border-radius: 50%;
 }
 
