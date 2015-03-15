@@ -1,13 +1,21 @@
 <head>
   <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="print.css" media="print" />
   <title>Caitlin Johnson's resume.</title>
 </head>
 <body>
   <div class="content">
-    <h1>hi, i'm Caitlin.</h1>
-    <p>I'm a backend software engineer looking for a new job where I can learn from my teammates and continue growing my experience working on designing systems and planning & implementing machine learning algorithms. I like the JVM (I know Java and Scala), but I'm excited to learn new languages too.</p>
-    <p>My resume is below, but you can also download a pdf copy <a href="NOPE">here</a>.[LINK TO BE ADDED ONCE FINALIZED]</p>
+    <div id="intro">
+      <div class="print-only">
+        <h1>Caitlin Johnson</h1>
+      </div>
+      <div class="web-only">
+        <h1>hi, i'm Caitlin.</h1>
+        <p>I'm a backend software engineer looking for a new job where I can learn from my teammates and continue growing my experience working on designing systems and planning & implementing machine learning algorithms. I like the JVM (I know Java and Scala), but I'm excited to learn new languages too.</p>
+        <p>My resume is below, but you can also download a pdf copy <a href="CaitlinJohnson-resume.pdf">here</a>.</p>
+      </div>
+    </div>
     <h2>work experience:</h2>
     <div class="work-history">
       <div class="work-item">
@@ -62,7 +70,7 @@
     <h2>non-work:</h2>
     <p>In my free time, I like to run around the dog park with my corgi pup <a href="http://instagram.com/tumblesthecorgi">Tumbles</a>, bake tasty desserts, and take ballet and yoga classes.</p>
 
-    <div class="photos">
+    <div class="photos web-only">
       <img class="round" src="tumbles-hoodie.jpg"></img>
       <img class="round" src="cupcakes.jpg"></img>
       <img class="round" src="halloween.jpg"></img>
@@ -71,8 +79,8 @@
       <img class="round" src="cookies.jpg"></img>
     </div>
 
-    <h2>on the internet:</h2>
-    <ul class="links">
+    <h2 class="web-only">on the internet:</h2>
+    <ul class="links web-only">
       <li><a href="http://blog.cupcait.com" target="_blank">my blog</a> - a slightly neglected collection of cooking adventures and pieces of my day to day life.</li>
       <li><a href="http://www.twitter.com/cupcait" target="_blank">@cupcait</a> on twitter; <a href="http://instagram.com/cupcait6">cupcait6</a> on instagram.</li>
       <li><a href="http://www.linkedin.com/in/caitlingjohnson" target="_blank">LinkedIn</a></li>

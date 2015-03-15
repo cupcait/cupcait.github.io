@@ -1,0 +1,52 @@
+.content {
+  border: none;
+  padding: 0;
+  height: 100%;
+}
+
+.content * {
+  color: black;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 20px 0 0;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+li, p {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+// Classes.
+
+
+// For some reason both of these are necessary, i don't know why!!
+.title {
+  font-size: 14px;
+}
+
+.date-range,.title {
+  font-size: 14px;
+}
+
+.web-only {
+  display: none;
+  height: 0;
+}
+
+.print-only {
+  display: block;
+}
+
+
