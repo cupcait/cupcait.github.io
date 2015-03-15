@@ -10,7 +10,7 @@ body {
   margin: 0 auto;
   max-width: 800px;
   background-color: white;
-  padding: 4em 3em;
+  padding: 3em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -23,7 +23,7 @@ h1 {
 h2 {
   color: #D13B3D;
   font-size: 36px;
-  margin: 20px 0;
+  margin: 20px 0 -10px;
 }
 
 h1, h2 {
@@ -33,7 +33,6 @@ h1, h2 {
 h3 {
   color: #42445B;
   display: inline;
-  padding: 20px 0;
 }
 
 p {
@@ -51,7 +50,7 @@ a:hover, a:active {
 }
 
 ul {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 li {
@@ -60,8 +59,16 @@ li {
 
 // Classes.
 
-.work-item {
-  margin: 15px 0 5px;
+.work-history#education div.work-item,h3 {
+  padding-bottom: 0;
+}
+
+.work-history#education p {
+  margin-top:0;
+}
+
+.work-history .work-item {
+  margin: 15px 0 0;
   display: block;
 }
 
@@ -77,13 +84,6 @@ li {
   padding: 5px 0;
 }
 
-.work-history#education div.work-item,h3 {
-  padding-bottom: 0;
-}
-
-.work-history#education p {
-  margin-top:0;
-}
 
 // Circular images.
 .photos {

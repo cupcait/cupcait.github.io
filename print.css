@@ -11,21 +11,24 @@
 h1 {
   font-size: 36px;
   font-weight: normal;
+  float: left;
 }
 
 h2 {
   font-size: 24px;
   font-weight: normal;
-  margin: 20px 0 0;
 }
 
 h3 {
   font-size: 16px;
 }
 
+ul {
+  margin: 5px 0;
+}
+
 li, p {
   font-size: 12px;
-  margin-top: 0;
 }
 
 // Classes.
@@ -34,6 +37,17 @@ li, p {
 // For some reason both of these are necessary, i don't know why!!
 .title {
   font-size: 14px;
+}
+
+.contact {
+  font-size: 14px;
+  text-align: right;
+  float: right;
+  margin-bottom: 35px;
+}
+
+.resume {
+  clear: both;
 }
 
 .date-range,.title {
